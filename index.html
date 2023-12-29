@@ -20,6 +20,32 @@
 
 <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
     <div id="root"></div>
+    <!-- <script>
+        // smooth scroll
+        $(document).ready(function(){
+            $(".navbar .nav-link").on('click', function(event) {
+
+                if (this.hash !== "") {
+
+                    event.preventDefault();
+
+                    var hash = this.hash;
+
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 700, function(){
+                        window.location.hash = hash;
+                    });
+                } 
+            });
+        });
+
+        // navbar toggle
+        $('#nav-toggle').click(function(){
+            $(this).toggleClass('is-active')
+            $('ul.nav').toggleClass('show');
+        });
+    </script> -->
     <!-- core  -->
     <script src="/src/assets/vendors/jquery/jquery-3.4.1.js"></script>
     <script src="/src/assets/vendors/bootstrap/bootstrap.bundle.js"></script>
@@ -28,7 +54,7 @@
     <script src="/src/assets/vendors/bootstrap/bootstrap.affix.js"></script>
 
     <!-- Meyawo js -->
-    <script src="/src/assets/js/meyawo.js"></script>
+    <!-- <script src="/src/assets/js/meyawo.js"></script> -->
 </body>
 
 </html>
