@@ -35,7 +35,7 @@ const Hero = (props) => {
               "An Aspiring Developer",
               "An AI & ML Enthusiast",
               "An IoT Enthusiast",
-              "A Student",
+              // "A Student",
             ],
             autoStart: true,
             loop: true,
@@ -66,7 +66,7 @@ const Hero = (props) => {
         <div className="hero-socials">
           {socials.map((social, index) => (
             <a key={index} href={social.url}>
-              <img src={`/socials/${social.icon}`} alt="" />
+              <img src={`socials/${social.icon}`} alt="" />
             </a>
           ))}
         </div>
