@@ -1,5 +1,9 @@
 import React from 'react'
 
+import hrmsImage from '../../assets/imgs/hrms_image.jpg'
+import smsImage from '../../assets/imgs/sms_image.png'
+import workOrderImage from '../../assets/imgs/wo_image.jpg'
+
 const Portfolio = () => {
   return (
     <section className="section" id="portfolio">
@@ -9,7 +13,7 @@ const Portfolio = () => {
             <div className="row">
                 <div className="col-md-4">
                     <a href="#" className="portfolio-card">
-                        <img src="/src/assets/imgs/folio-1.jpg" className="portfolio-card-img"
+                        <img src={hrmsImage} className="portfolio-card-img"
                             alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page" />
                         <span className="portfolio-card-overlay">
                             <span className="portfolio-card-caption">
@@ -21,7 +25,7 @@ const Portfolio = () => {
                 </div>
                 <div className="col-md-4">
                     <a href="#" className="portfolio-card">
-                        <img className="portfolio-card-img img-responsive rounded" src="/src/assets/imgs/folio-2.jpg"
+                        <img className="portfolio-card-img img-responsive rounded" src={smsImage}
                             alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page" />
                         <span className="portfolio-card-overlay">
                             <span className="portfolio-card-caption">
@@ -33,7 +37,7 @@ const Portfolio = () => {
                 </div>
                 <div className="col-md-4">
                     <a href="#" className="portfolio-card">
-                        <img className="portfolio-card-img img-responsive rounded" src="/src/assets/imgs/folio-3.jpg"
+                        <img className="portfolio-card-img img-responsive rounded" src={workOrderImage}
                             alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page" />
                         <span className="portfolio-card-overlay">
                             <span className="portfolio-card-caption">
