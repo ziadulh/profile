@@ -1,29 +1,30 @@
 //projects start
 const projects = [
   {
-    name: "Booking.com clone",
+    name: "HRMS",
     description:
-      "A clone of booking.com which is built using Nextjs 14 and Oxylabs webscraping API to scrape data from the official booking.com website and show as results of our queries",
-    stack: ["React", "NodeJS", "Express", "MongoDB"],
-    sourceCode: "https://github.com/randilt/booking.com-clone-nextjs14",
-    img: "/bookingcom.jpg",
-    preview: "https://bookingcomnext14.netlify.app/",
+      "Optimize workforce management with our HRMS software. Track attendance, manage leaves, salary processing, and maintain a centralized employee record database. Streamline HR tasks for enhanced efficiency and engagement.",
+    stack: ["PHP(Laravel)", "VueJs", "JQuery", "MySQL"],
+    sourceCode: "https://hrms.norbangroup.com",
+    img: "projects/hrms.jpg",
+    preview: "https://hrms.norbangroup.com/",
   },
   {
-    name: "Cyberscourge Hub",
+    name: "SMS",
     description:
-      "An open source ultra fast markdown blog app built using Hugo and deployed on Netlify. The theme of this app is 100% custom built by me. The theme is also open source and can be found on my github profile. And I regularly write articles on this blog.",
-    stack: ["React", "NodeJS", "Express", "MongoDB"],
-    sourceCode: "https://github.com/randilt/cyberscourge-hub",
+      "An open source ultra fast markdown blog app built using Hugo and deployed on Netlify. The theme of this app is 100% custom built by me. The theme is also open source and can be found on my github profile. And I regularly write articles on this bl",
+    stack: ["PHP(Laravel)", "Jquery", "MySQL"],
+    sourceCode: "https://dev-iems.bdskill.com/login",
     img: "/cyberscourge.jpg",
-    preview: "https://rtharusha.tech",
+    // preview: "https://dev-iems.bdskill.com/login",
+    preview: "https://msc.bdskill.com/",
   },
   {
-    name: "Jotion (Notion Clone)",
+    name: "Buyomo",
     description:
-      "A clone of the popular note taking app Notion. This app is built using Nextjs 13 and Tailwind CSS. It uses clerk for authentication and convex for its real time database. The project is not yet complete ",
-    stack: ["React", "NodeJS", "Express", "MongoDB"],
-    sourceCode: "https://github.com/randilt/notion-clone",
+      "Discover a seamless online shopping experience with eCommerce site. Browse a vast selection of products, easily navigate user-friendly interfaces, and enjoy secure transactions. Our platform ensures a convenient and personalized shopping journey, with features like product recommendations and hassle-free checkout. Explore a world of quality goods, diverse categories, and exclusive deals. Elevate your online shopping with our eCommerce site, where convenience meets choice.",
+    stack: ["PHP(Laravel)", "JQuery", "MySQL"],
+    sourceCode: "https://github.com/",
     img: "/jotion.jpg",
     preview: "#",
   },

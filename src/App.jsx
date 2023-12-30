@@ -98,7 +98,7 @@ function App() {
           ))}
         </motion.div>
       </section>
-      <section id="skills">
+      {/* <section id="skills">
         <Heading firstWord="Skills" secondWord="&Tools" />
         <motion.div
           className="skill-map"
@@ -130,11 +130,11 @@ function App() {
         <a className="cyber-scourge" href="https://blog.randiltharusha.me">
           View More Posts
         </a>
-      </section>
-      <section id="contact">
+      </section> */}
+      {/* <section id="contact">
         <Heading firstWord="Contact" secondWord="Me" />
         <ContactForm />
-      </section>
+      </section> */}
 
       <Footer />
     </>
