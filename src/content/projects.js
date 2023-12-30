@@ -15,17 +15,17 @@ const projects = [
       "An open source ultra fast markdown blog app built using Hugo and deployed on Netlify. The theme of this app is 100% custom built by me. The theme is also open source and can be found on my github profile. And I regularly write articles on this bl",
     stack: ["PHP(Laravel)", "Jquery", "MySQL"],
     sourceCode: "https://dev-iems.bdskill.com/login",
-    img: "/cyberscourge.jpg",
+    img: "projects/sms.png",
     // preview: "https://dev-iems.bdskill.com/login",
     preview: "https://msc.bdskill.com/",
   },
   {
     name: "Buyomo",
     description:
-      "Discover a seamless online shopping experience with eCommerce site. Browse a vast selection of products, easily navigate user-friendly interfaces, and enjoy secure transactions. Our platform ensures a convenient and personalized shopping journey, with features like product recommendations and hassle-free checkout. Explore a world of quality goods, diverse categories, and exclusive deals. Elevate your online shopping with our eCommerce site, where convenience meets choice.",
+      "Explore a world of convenience and choice on our eCommerce site. Browse diverse products, enjoy user-friendly interfaces, and secure transactions. Discover quality goods, exclusive deals, and personalized shopping experiences. Elevate your online shopping with us.",
     stack: ["PHP(Laravel)", "JQuery", "MySQL"],
     sourceCode: "https://github.com/",
-    img: "/jotion.jpg",
+    img: "projects/eCom.png",
     preview: "#",
   },
 ];
