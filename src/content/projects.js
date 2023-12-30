@@ -12,7 +12,7 @@ const projects = [
   {
     name: "SMS",
     description:
-      "An open source ultra fast markdown blog app built using Hugo and deployed on Netlify. The theme of this app is 100% custom built by me. The theme is also open source and can be found on my github profile. And I regularly write articles on this bl",
+      "Elevate school management with our integrated system. Effortlessly store student records, track attendance, and manage tuition payments in one user-friendly platform. Streamline administrative tasks for a more organized and efficient educational experience.",
     stack: ["PHP(Laravel)", "Jquery", "MySQL"],
     sourceCode: "https://dev-iems.bdskill.com/login",
     img: "projects/sms.png",
