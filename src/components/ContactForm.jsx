@@ -10,7 +10,7 @@ const ContactForm = () => {
         <h1>Let&apos;s talk about everything!</h1>
         <p>
           Don&apos;t like forms? Send me an{" "}
-          <a href="mailto:ziadul@hotmail.com">email</a>. 👋
+          <a href="mailto:ziadul@hotmail.com?subject=Subject&body=Thisistestemail">email</a>. 👋
           <br />
           <br />
           <h3>Or find me on:</h3>
@@ -56,7 +56,7 @@ const ContactForm = () => {
             name="message"
             required
           ></textarea>
-          <input type="submit" value="Send" />
+          <input type="button" value="Send" />
         </form>
       </div>
     </div>
