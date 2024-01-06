@@ -30,9 +30,9 @@ const Navbar = (props) => {
           <li>
             <a href="#skills">Skills</a>
           </li>
-          <li>
+          {/* <li>
             <a href="#blog">Blog</a>
-          </li>
+          </li> */}
           <li>
             <a href="#contact" className="navbar-btn">
               Contact Me

@@ -98,7 +98,7 @@ function App() {
           ))}
         </motion.div>
       </section>
-      {/* <section id="skills">
+      <section id="skills">
         <Heading firstWord="Skills" secondWord="&Tools" />
         <motion.div
           className="skill-map"
@@ -114,7 +114,7 @@ function App() {
           ))}
         </motion.div>
       </section>
-      <section id="blog">
+      {/* <section id="blog">
         <Heading firstWord="My" secondWord="Blog" />
         <div className="posts">
           {blogPosts.map((post, index) => (
@@ -131,10 +131,10 @@ function App() {
           View More Posts
         </a>
       </section> */}
-      {/* <section id="contact">
+      <section id="contact">
         <Heading firstWord="Contact" secondWord="Me" />
         <ContactForm />
-      </section> */}
+      </section>
 
       <Footer />
     </>
